@@ -1,10 +1,10 @@
 # Core LangChain
-langchain==0.2.10
-langchain-core==0.2.23
-langchain-community==0.2.10
+# langchain==0.2.10
+# langchain-core==0.2.23
+# langchain-community==0.2.10
 
 # Groq LLM
-langchain-groq==0.1.6
+# langchain-groq==0.1.6
 
 # Tavily Search
 tavily-python>=0.3.0
@@ -24,3 +24,9 @@ streamlit>=1.0.0
 
 # Logging / debugging
 rich>=13.7.0
+
+
+langchain
+langchain-core
+langchain-community
+langchain-groq
