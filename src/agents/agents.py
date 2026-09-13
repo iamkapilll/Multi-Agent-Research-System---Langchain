@@ -97,9 +97,7 @@ Be detailed, factual and professional."""
 
 # Prompt → LLM → String output
 writer_chain = (
-    writer_prompt
-    | llm
-    | StrOutputParser()
+    writer_prompt | llm | StrOutputParser()
 )
 
 
@@ -143,7 +141,5 @@ One line verdict:
 
 # Prompt → LLM → String output
 critic_chain = (
-    critic_prompt
-    | llm
-    | StrOutputParser()
-)
+    critic_prompt | llm | StrOutputParser()
+) 
